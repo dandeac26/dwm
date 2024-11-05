@@ -101,7 +101,7 @@ static Key keys[] = {
     { MODKEY,                       XK_r,                      spawn,          {.v = launchercmd} },
     { MODKEY|ControlMask,           XK_r,                      spawn,          SHCMD ("protonrestart")},
     { MODKEY,                       XK_x,                      spawn,          {.v = termcmd} },
-    { MODKEY,                       XK_b,                      spawn,          SHCMD ("firefox")},
+    { MODKEY,                       XK_b,                      spawn,          SHCMD ("google-chrome")},
     { MODKEY,                       XK_s,                      spawn,          SHCMD ("flameshot full -p ~/media/screenshots/")},
     { MODKEY|ShiftMask,	            XK_s,    		       spawn, 	       SHCMD ("~/flameshot-wrap.sh")},
     { MODKEY,                       XK_e,                      spawn,          SHCMD ("dolphin")},
